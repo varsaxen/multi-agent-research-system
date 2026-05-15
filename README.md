@@ -67,3 +67,11 @@ Final Summary
 ## 🖥️ Frontend (React)
 
 📂 Located in:
+## ⚠️ Notes
+
+- Parallel execution (Send) is simulated
+- SQLite persistence not implemented due to environment constraints
+- Tools use mock data instead of real APIs
+
+The architecture supports these features for production environments.
+``
