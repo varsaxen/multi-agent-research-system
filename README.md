@@ -1,38 +1,49 @@
 # 🧠 Multi-Agent Research & Synthesis System
 
-A production-style **Agentic AI system** built using:
-
-- Python + FastAPI (Backend)
-- LangGraph (Agent orchestration)
-- React (Frontend UI)
-- Server-Sent Events (SSE) for real-time streaming
-- Human-in-the-loop (HITL) workflow
+A production-style **Agentic AI system** built using **Python, LangGraph, and React**, designed to simulate how consulting analysts perform structured research and synthesis.
 
 ---
 
 ## 🚀 Overview
 
-This project simulates how consulting analysts perform research by automating:
+Consulting analysts spend hours researching topics, gathering information, and producing reports.
 
-- Query decomposition
-- Multi-agent research
-- Evidence synthesis
-- Human review before final output
+This system automates that workflow using a **multi-agent architecture** that:
 
-The system provides **real-time visibility of agent reasoning** and allows user intervention before generating the final report.
+- Breaks user queries into sub-questions
+- Simulates research using specialized agents
+- Streams agent reasoning in real time
+- Allows human intervention (HITL)
+- Produces a final structured report
 
 ---
 
 ## ✅ Key Features
 
-✔ Multi-agent architecture (Supervisor, Decomposer, Researcher, Synthesizer)  
-✔ Real-time streaming of agent activity (SSE)  
-✔ Human-in-the-loop (HITL) approval flow  
-✔ Structured research output  
-✔ Clean React-based UI  
-✔ End-to-end integration (Frontend + Backend)
+✔ Multi-agent orchestration using LangGraph  
+✔ Supervisor-driven decision workflow  
+✔ Real-time streaming using Server-Sent Events (SSE)  
+✔ Human-in-the-loop (HITL) approval system  
+✔ Clean and interactive React UI  
+✔ End-to-end full-stack implementation  
 
 ---
 
 ## 🧠 Architecture
+
+**Flow:**
+
+- User Query  
+  ↓  
+- Supervisor Agent  
+  ↓  
+- Decomposer  
+  ↓  
+- Researcher  
+  ↓  
+- ⏸️ Human Review (HITL)  
+  ↓  
+- Synthesizer  
+  ↓  
+- Final Summary  
 
