@@ -1,22 +1,22 @@
 # 🧠 Multi-Agent Research & Synthesis System
 
-A production-style **Agentic AI system** built using **Python, LangGraph, and React** that simulates how consulting analysts perform structured research and synthesis.
+A production-style **Agentic AI system** built using **Python, LangGraph, and React**, designed to simulate how consulting analysts perform structured research and synthesis workflows.
 
-This system demonstrates a full **end-to-end multi-agent workflow** with real-time reasoning visibility and human-in-the-loop control.
+This system demonstrates a complete **end-to-end multi-agent pipeline**, including real-time reasoning visibility and human-in-the-loop (HITL) control.
 
 ---
 
 ## 🚀 Overview
 
-Consulting analysts often spend hours performing research, gathering information from multiple sources, and preparing structured reports.
+Consulting analysts often spend hours researching topics, gathering information from multiple sources, and preparing structured reports.
 
-This project automates that workflow using a **multi-agent architecture**, enabling:
+This project automates that workflow using a coordinated **multi-agent architecture** that:
 
-- Query decomposition into focused sub-questions  
-- Simulated research using specialized agents  
-- Real-time streaming of agent reasoning  
-- Human-in-the-loop validation before final output  
-- Generation of a structured final summary  
+- Breaks user queries into focused sub-questions  
+- Simulates research using specialized agents  
+- Streams agent reasoning in real time  
+- Allows human validation before final output  
+- Produces a structured, synthesized summary  
 
 ---
 
@@ -50,3 +50,20 @@ Synthesizer
 Final Summary  
 
 ---
+
+## 📡 System Flow (Detailed)
+
+1. User inputs a research query through the UI  
+2. Supervisor determines next step  
+3. Decomposer splits query into sub-questions  
+4. Researcher gathers relevant information (simulated)  
+5. UI streams agent reasoning in real time  
+6. System pauses for human approval  
+7. User provides feedback / approval  
+8. System resumes and produces final summary  
+
+---
+
+## 🖥️ Frontend (React)
+
+📂 Located in:
